@@ -1,0 +1,6 @@
+streamlit
+pymatgen
+mp-api
+py3Dmol
+pandas
+numpy

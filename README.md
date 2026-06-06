@@ -42,4 +42,4 @@ streamlit run app.py
 
 ## Try the App
 
-App Link: https://your-app-link.streamlit.app
+App Link: https://crystalscope.streamlit.app/

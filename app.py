@@ -1,5 +1,6 @@
 #import libaray and crystal_structure class
 import streamlit as st
+import time
 from crystal import CrystalStructure
 
 #set page configuration
@@ -68,6 +69,7 @@ b = st.button(
 if b:
     #making spinner for waiting
     with st.spinner("Collecting data..."):
+        time.sleep(2)
         try:
             #making structure from data
             if inp_type == "cif file":
